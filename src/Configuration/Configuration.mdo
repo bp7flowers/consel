@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="31c8896a-64f4-4a6d-8928-06b52f5dd6d1">
+  <name>Консоль</name>
+  <synonym>
+    <key>ru</key>
+    <value>Консоль</value>
+  </synonym>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConfigurationExtension">
+    <defaultRunMode>Checked</defaultRunMode>
+    <usePurposes>Checked</usePurposes>
+    <defaultLanguage>Checked</defaultLanguage>
+    <interfaceCompatibilityMode>Checked</interfaceCompatibilityMode>
+  </extension>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="0772e55e-50f7-4ff1-8212-0f64ccfacf77"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="43489f03-3ea2-40a3-b78e-a4a309a4027c"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="5390cdb3-dfe2-45f6-b0a0-c534e396a7fe"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="549f6077-bf83-4619-b103-02bba1827bd1"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="74da1b51-b6ea-4bde-92c4-adca3b5749db"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="adeb6cd4-bf11-4dd4-b790-f80897cc3210"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="6ae0c195-5a71-4077-849e-be626a986e4e"/>
+  <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
+  <namePrefix>Расш1_</namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.22</configurationExtensionCompatibilityMode>
+  <configurationExtensionPurpose>AddOn</configurationExtensionPurpose>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <compatibilityMode>8.3.22</compatibilityMode>
+  <languages uuid="eba68aab-df85-4b3e-a560-66ac36ad593a" extendedConfigurationObject="ed1506c0-ae10-45f0-b356-945bab8ed3fd">
+    <name>Русский</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:LanguageExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <languageCode>Checked</languageCode>
+    </extension>
+    <languageCode>ru</languageCode>
+  </languages>
+  <sessionParameters>SessionParameter.Конс_СписокЗапросов</sessionParameters>
+  <dataProcessors>DataProcessor.Консоль</dataProcessors>
+</mdclass:Configuration>

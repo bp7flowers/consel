@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eac2bff7-47ae-4b86-a0cd-f574670fd8d1">
+  <producedTypes>
+    <objectType typeId="fb1261fb-97f2-45ae-b9e9-4abe3b61be5f" valueTypeId="014b926b-6c8b-47d8-ba41-9264f6af72d8"/>
+    <managerType typeId="4c9cbc35-78ad-45ab-828f-b31898a13a67" valueTypeId="bad63c7c-51be-467e-ae26-abd761c55c84"/>
+  </producedTypes>
+  <name>Консоль</name>
+  <synonym>
+    <key>ru</key>
+    <value>Консоль трансмутабельная</value>
+  </synonym>
+  <comment>8.3.5.2</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Консоль.Form.Форма</defaultForm>
+  <attributes uuid="2e0cdb78-017c-4986-a518-65da4581f29b">
+    <name>ПутьКХранилищу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к хранилищу</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="28f25726-e899-4aaf-a3b0-b0e64df114ec">
+    <name>ОшибкиВЗапросе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибки в запросе</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d1e03d44-311c-4080-a515-f1072b4034ca">
+    <name>ВерсияПриложения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия приложения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>15</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a3f117ab-b86b-4084-aa3f-da85caad00ea">
+    <name>МодальностьЗапрещена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модальность запрещена</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9b46ddf2-06c4-4f95-b2fd-79dae37db25d">
+    <name>МодальностьРазрешена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модальность разрешена</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="76e884ad-13a1-4d14-8bff-c2842bba42d9">
+    <name>ПутьКФайлуНаСервереПриложения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к файлу на сервере приложения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="0c481497-13a7-463b-a730-c375cf2634dd">
+    <name>РежимСовместимости</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим совместимости</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b7aa1ae2-66f4-4723-a28b-4271d1e81efe">
+    <name>ПутьКФайлуЗапроса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к файлу запроса</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="104e4c8e-8a07-4776-85da-1cbaa14a83cd">
+    <name>ЛимитВыводимыхСтрок</name>
+    <synonym>
+      <key>ru</key>
+      <value>MAX строк</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Если выводимая таблица превышает указанное количество строк, то вывод отменяется, делается выгрузка.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9ad58e66-213c-49f6-bdfd-c6f7cb61dcc9">
+    <name>ПутьКФайлуВеткиЗапроса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к файлу ветки запроса</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="c1359153-2b2b-490c-9f8d-58831a41adba">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="98372260-28e6-4947-b21d-ac3246614c1e">
+    <name>ФормаВыбораТипа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора типа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4f05df4b-2715-4d96-b202-246bb179a199">
+    <name>ФормаМоментВремени</name>
+    <synonym>
+      <key>ru</key>
+      <value>Момент времени</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7184c011-4bfb-447b-9a44-27a5e4ed7e8a">
+    <name>ФормаГраница</name>
+    <synonym>
+      <key>ru</key>
+      <value>Граница</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="218c8993-da43-4ab6-b159-730581e2d8ff">
+    <name>ФормаТаблицаЗначений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица значений</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="47ce374c-f92e-43d4-aa96-3a815e00abc3">
+    <name>ФормаВыгрузкаВОбъект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгрузка в объект</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="871053a9-aa44-4b40-9571-331933fc42f5">
+    <name>ФормаВыбораИзСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора из списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e025080e-15f8-4fd1-b8c6-5ff191db23c9">
+    <name>ФормаГенерацииТекстаДляМодуля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма генерации текста для модуля</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1b51ce5e-7457-4489-b9dd-b986cdff5df7">
+    <name>ФормаПутиКФайлуНаСервереПриложения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Путь к файлу на сервере приложения</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5a232ba2-912f-4a84-9124-cf5e23afc9a0">
+    <name>ФормаВыбораПредопределенныхЭлементов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора предопределенных элементов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="63e8c13d-e3b0-4067-9f40-3c30e95d88ed">
+    <name>ФормаГенерацииТекстаПрисвоенияЗначенийПеременнымПараметров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код присвоения значений переменным параметров</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a98392d9-e979-461e-979f-b18b7be194e1">
+    <name>ФормаРедакторТабличногоДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактор табличного документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2eca6d2a-da5f-4c10-9766-e78376bb1dd4">
+    <name>ФормаПоказанияЯчеек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показания ячеек</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="30b79108-6a79-43b4-bd7f-9194b8ee6935">
+    <name>ФормаНастройкаСверткиТаблицыЗначений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка свертки таблицы значений</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c029877a-380f-4704-a092-e141fd93bec0">
+    <name>ФормаНастройкаСортировкиТаблицыЗначений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка сортировки таблицы значений</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e4b22973-6c6e-4929-a4ba-873d9d46f2da">
+    <name>ФормаВызовКонсолиЗапросовИзОтладчика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма вызов консоли запросов из отладчика</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b59e100b-874b-4a92-a067-251de22137c9">
+    <name>ФормаВыборПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор периода</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="672eb8bb-44b6-466b-8217-63508b4a3441">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+  <templates uuid="da441e2c-ae10-457e-a0ca-0016c076ed3b">
+    <name>ИзображенияМетаданных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изображения метаданных</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>
